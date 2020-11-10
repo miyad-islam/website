@@ -1,0 +1,67 @@
+.bb{
+  background-color: red;
+  flex-wrap: wrap;
+}
+
+
+
+.pp{
+ background-image: url(images.png);
+ width: 100%;
+ height: 400px;
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+ border: 1px solid red;
+}
+.ss{
+  height: 100px;
+  width:100px;
+  border-radius: 200px;
+  border: 2px solid white;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.heading{
+box-sizing: border-box;
+width: 75px;
+ border: 5px transparent;
+ background-color: lightblue;
+ color: red;
+ margin-left: 45%;
+ margin-top: -6%;
+ font-style: italic;
+ font-family: cursive;
+ font-size: 20px;
+ padding-left: 1%;
+}
+
+ .heading:hover{
+   background-color: #a8f0e0;
+
+ }
+.edu{
+  background-color: blue;
+  width: 100%;
+  height: 350px;
+  background-size: 100% 100%;
+  background-position: center;
+
+}
+.edulife{
+  padding-left: 10%;
+  padding-top: 5%;
+  height: 200px;
+
+}
+.codelife{
+height: 200px;
+padding-left: 5%;
+}
+
+.exlife{
+
+  height: 200px;
+  padding-left: 5%;
+
+}
