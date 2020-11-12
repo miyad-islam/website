@@ -30,40 +30,60 @@ width: 75px;
  color: red;
  margin-left: 45%;
  margin-top: -6%;
- font-style: italic;
- font-family: cursive;
- font-size: 20px;
- padding-left: 1%;
 }
 
  .heading:hover{
    background-color: #a8f0e0;
 
  }
+
+.headingt{
+  font-style: italic;
+font-family: cursive;
+font-size: 20px;
+padding: 10% 0% 2% 10%;
+}
+
 .edu{
   background-color: blue;
   width: 100%;
-  height:inherit;
+  height:auto;
   background-size: 100% 100%;
   background-position: center;
+  margin-top: 1%;
 
 }
+.edu::after {
+  content: "";
+  clear: both;
+  display: table;
+
+}
+
 .tt{
 
-  padding: 5% 5% 5% 25%;
-}
-.edulife{
-  height: 200px;
-  box-sizing: border-box;
-
-
-}
-.codelife{
-height: 200px;
-  box-sizing: border-box;
+  padding: 5% 0% 5% 10%;
+  flex-wrap: wrap;
 }
 
-.exlife{
-height: 200px;
-  box-sizing: border-box;
+
+.cl {
+  float: left;
+  width:34%;
+  padding: 5px;
+
 }
+@media screen and (max-width: 700px) {
+  .cl {
+    width: 100%;
+  }
+}
+#ed{
+padding-left: 15%;
+}
+#cd{
+  padding-left: 15%;
+}
+ #ex{
+   padding-left: 15%;
+ }
