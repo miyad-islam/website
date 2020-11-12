@@ -43,25 +43,27 @@ width: 75px;
 .edu{
   background-color: blue;
   width: 100%;
-  height: 350px;
+  height:inherit;
   background-size: 100% 100%;
   background-position: center;
 
 }
+.tt{
+
+  padding: 5% 5% 5% 25%;
+}
 .edulife{
-  padding-left: 10%;
-  padding-top: 5%;
   height: 200px;
+  box-sizing: border-box;
+
 
 }
 .codelife{
 height: 200px;
-padding-left: 5%;
+  box-sizing: border-box;
 }
 
 .exlife{
-
-  height: 200px;
-  padding-left: 5%;
-
+height: 200px;
+  box-sizing: border-box;
 }
