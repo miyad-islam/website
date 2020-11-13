@@ -76,8 +76,9 @@ padding: 10% 0% 2% 10%;
 @media screen and (max-width: 800px) {
   .cl {
 
-    width: auto;
+    width: 100%;
     padding: 20px;
+    Padding-left:15%;
   }
 }
 #ed{
