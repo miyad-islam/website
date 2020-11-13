@@ -1,5 +1,5 @@
 .bb{
-  background-color: red;
+  background-color: #6a14a3;
   flex-wrap: wrap;
 }
 
@@ -62,28 +62,68 @@ padding: 10% 0% 2% 10%;
 
 .tt{
 
-  padding: 5% 0% 5% 10%;
+  padding: 5%;
   flex-wrap: wrap;
 }
 
 
 .cl {
   float: left;
-  width:34%;
-  padding: 5px;
+  width:33.33%;
+
 
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .cl {
-    width: 100%;
+
+    width: 50%;
+    padding: 20px;
+    padding-left: 15%;
   }
 }
 #ed{
-padding-left: 15%;
+padding-left: 20%;
+color: white;
+font-family: cursive;
+font-size: 25px;
 }
 #cd{
-  padding-left: 15%;
+  color: white;
+  padding-left: 20%;
+  font-family: cursive;
+  font-size: 25px;
 }
  #ex{
-   padding-left: 15%;
+   font-size: 25px;
+   color: white;
+   font-family: cursive;
+   padding-left:  20%;
+ }
+ .education{
+   background-color: #edd1ab;
+   width: 100%;
+   height:auto;
+   background-size: 100% 100%;
+   background-position: center;
+   margin-top: 4%;
+   font-family: cursive;
+   font-size: 25px;
+ }
+ .subedu{
+   padding: 1% 0% 2% 5%;
+ }
+ .coding{
+   background-color: #b0abed;
+   width: 100%;
+   height:auto;
+   background-size: 100% 100%;
+   background-position: center;
+   margin-top: 4%;
+   font-family: cursive;
+   font-size: 25px;
+
+ }
+ .codingc{
+      padding: 1% 0% 2% 5%;
+
  }
