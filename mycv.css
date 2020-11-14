@@ -46,9 +46,9 @@ padding: 10% 0% 2% 10%;
 
 .edu{
   background-color: blue;
-  width: 100%;
+  width: 100% ;
   height:auto;
-  background-size: 100% 100%;
+  background-size: auto auto;
   background-position: center;
   margin-top: 1%;
 
@@ -61,15 +61,18 @@ padding: 10% 0% 2% 10%;
 }
 
 .tt{
-
   padding: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
   flex-wrap: wrap;
 }
 
 
 .cl {
   float: left;
-  width:33.33%;
+  width:33.333333%;
+
+
 
 
 }
@@ -78,8 +81,8 @@ padding: 10% 0% 2% 10%;
 
     width: 100%;
     padding: 20px;
-    Padding-left:15%
-    Padding-right:15%;
+
+
   }
 }
 #ed{
